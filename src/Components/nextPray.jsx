@@ -5,6 +5,7 @@ function NextPray({city , time}) {
     const [currentTime , setCurrentTime] = useState(new Date());
 
 
+    // eslint-disable-next-line no-unused-vars
     const [nextPray , setNextPray] = useState("");
 
     const [nextPrayTime , setNextPrayTime] = useState("");

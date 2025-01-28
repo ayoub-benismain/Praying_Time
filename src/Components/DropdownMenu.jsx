@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-// eslint-disable-next-line react/prop-types
+// eslint-disable-next-line no-unused-vars
 const DropdownMenu = ({setCity , time}) => {
   const citiesInTunisia = [
     "Tunisia", "Ariana", "Jendouba", "Gabes", "Djerba", "Sousse", "Kef",
