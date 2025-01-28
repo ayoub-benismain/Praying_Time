@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 // eslint-disable-next-line react/prop-types
-const DropdownMenu = ({setCity}) => {
+const DropdownMenu = ({setCity , time}) => {
   const citiesInTunisia = [
     "Tunisia", "Ariana", "Jendouba", "Gabes", "Djerba", "Sousse", "Kef",
     "Monastir", "Sfax", "Mahdia", "Tozeur", "Tataouine", "Mednine",
@@ -21,6 +21,8 @@ const DropdownMenu = ({setCity}) => {
     setCity(city)
     setIsOpen(false);
   };
+
+  
 
   return (
     <div className="flex flex-col items-center justify-center z-50">
